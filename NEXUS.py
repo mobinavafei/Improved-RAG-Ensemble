@@ -1,16 +1,4 @@
 """
-BCU AI Hackathon 2026 - Improved Pipeline
-Based on official starter code structure
-
-Improvements over starter code:
-    1. Multi-query search (4 queries per question)
-    2. TF-IDF evidence ranking
-    3. RAG-style prompt with ranked evidence
-    4. Ensemble: qwen3-32b + llama-3.1-8b-instant (6 total votes)
-    5. Majority voting across both models for highest accuracy
-    6. Confidence scoring
-    7. Resume from any question with --start
-
 Setup:
     pip install pandas ddgs groq scikit-learn
 
