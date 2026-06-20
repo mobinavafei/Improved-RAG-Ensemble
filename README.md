@@ -1,6 +1,6 @@
 # Improved RAG Ensemble Pipeline
 
-This project implements an improved multiple-choice question answering pipeline for the BCU AI Hackathon 2026. It extends the official starter-code style with web evidence retrieval, TF-IDF evidence ranking, RAG-style prompting, and ensemble voting across two Groq-hosted language models.
+This project implements an improved multiple-choice question answering pipeline for the AI Hackathon 2026. It extends the official starter-code style with web evidence retrieval, TF-IDF evidence ranking, RAG-style prompting, and ensemble voting across two Groq-hosted language models.
 
 The pipeline reads questions from `questions_100.csv`, searches the web for evidence, ranks the most relevant snippets, asks two LLMs to answer each question multiple times, applies majority voting, calculates a confidence score, and exports both a submission file and a detailed review file.
 
